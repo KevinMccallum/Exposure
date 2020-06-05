@@ -17,7 +17,7 @@ const dbconfig = {
 }
 
 const corsconfig = {
-  origin: ["https://exposure.now.sh"],
+  origin: ["http://exposure.now.sh"],
   credentials: true,
 }
 
