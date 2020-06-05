@@ -17,7 +17,7 @@ const dbconfig = {
 }
 
 const corsconfig = {
-  origin: ["http://localhost:3001"],
+  origin: ["https://exposure.now.sh"],
   credentials: true,
 }
 
