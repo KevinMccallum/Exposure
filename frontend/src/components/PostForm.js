@@ -17,7 +17,7 @@ function PostForm({ onFinish, onChange, disableUpdate }) {
 
   const props = {
     name: 'imageURL',
-    action: 'http://localhost:3000/post/upload',
+    action: 'https://intense-everglades-05444.herokuapp.com/post/upload',
   }
 
   return (
