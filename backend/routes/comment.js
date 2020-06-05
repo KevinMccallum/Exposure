@@ -8,3 +8,4 @@ router.get('/:postId', getPostComments)
 router.delete('/:id', deleteComment)
 
 
+module.exports = router

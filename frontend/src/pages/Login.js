@@ -1,4 +1,4 @@
-import React, { Component } from ' react'
+import React, { Component } from 'react'
 import { MyContext } from '../context'
 import { Typography } from 'antd'
 import AuthForm from '../components/AuthForm'

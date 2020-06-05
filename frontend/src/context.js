@@ -13,7 +13,7 @@ export default class MyProvider extends Component {
     this.logUser(user)
   }
 
-  logUser = async () => {
+  logUser = (user) => {
     this.setState({ loggedUser: user })
   }
 

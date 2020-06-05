@@ -12,6 +12,7 @@ exports.viewPosts = async (req, res) => {
 
 exports.viewPost = async (req, res) => {
   const post = await Post.findById(req.params.id).populate('author')
+  res.status(201).json({ post })
 }
 
 exports.editPost = async (req, res) => {

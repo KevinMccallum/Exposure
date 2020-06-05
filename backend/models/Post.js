@@ -6,9 +6,7 @@ const postSchema = new Schema(
     imgURL: {
       type: String,
     },
-    pricing: Number,
     description: String,
-    isActive: { type: Boolean, default: true },
     author: {
       type: Schema.Types.ObjectId,
       ref: 'User',

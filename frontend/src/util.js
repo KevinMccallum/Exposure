@@ -1,4 +1,4 @@
-const handleAsync = async (asyncFn) => {
+const handleAsync = async asyncFn => {
   let result
   try {
     const { data } = await asyncFn()

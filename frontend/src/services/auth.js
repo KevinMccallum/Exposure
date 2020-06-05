@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = 'http://localhost:3000/'
+const baseURL = 'http://localhost:3000'
 
 const service = axios.create({ baseURL, withCredentials: true })
 
@@ -18,7 +18,7 @@ const AUTH_SERVICE = {
   },
 
   CURRENTUSER: async () => {
-    return await service.get('auth/currentuser')
+    return await service.get('/auth/currentuser')
   }
 }
 
