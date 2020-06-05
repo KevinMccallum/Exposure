@@ -17,7 +17,7 @@ function PostForm({ onFinish, onChange, disableUpdate }) {
 
   const props = {
     name: 'imageURL',
-    action: 'https://intense-everglades-05444.herokuapp.com/post/upload',
+    action: 'https://evening-meadow-75354.herokuapp.com/post/upload',
   }
 
   return (
