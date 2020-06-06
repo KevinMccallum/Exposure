@@ -17,7 +17,7 @@ export default class Home extends Component {
     const { posts } = res.data
     this.setState({
       posts,
-    })
+    });
 
   }
 
@@ -37,7 +37,7 @@ export default class Home extends Component {
     return (
       <>
         <h1>Exposure</h1>
-        <h4>Share your greates pictures with the world!</h4>
+        <h4>Share your greates pictures with the world!!!!</h4>
         {this.state.posts.map((post) => (
           <PostCard deletePost={this.deletePost} {...post} key={post._id} />
         ))}
