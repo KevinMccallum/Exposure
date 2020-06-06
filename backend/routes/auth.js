@@ -9,6 +9,6 @@ const { signup, login, logout, currentUser } = require('../controllers/auth')
 router.post('/signup', catchErrors(signup))
 router.post('/login', login)
 router.get('/logout', logout)
-router.get('/currentuser', isLogged, currentUser)
+router.get('/currentuser', isLogged, currentUser);
 
 module.exports = router
